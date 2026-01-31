@@ -1,0 +1,174 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #020617;
+  color: white;
+}
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulseBtn {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.03);
+  }
+}
+
+.animate-fadeUp {
+  animation: fadeUp 1s ease-out;
+}
+
+.animate-pulseBtn {
+  animation: pulseBtn 2.5s ease-in-out infinite;
+}
+/* PAGE FADE */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeUp {
+  animation: fadeUp 1s ease-out;
+}
+
+/* BUTTON ANIMATION */
+@keyframes pulseBtn {
+  0%,100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+.btn-main {
+  padding: 0.75rem 2rem;
+  border-radius: 0.75rem;
+  background: #22d3ee;
+  color: black;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  animation: pulseBtn 2.5s infinite;
+}
+
+.btn-main:hover {
+  background: #67e8f9;
+}
+
+.btn-outline {
+  padding: 0.75rem 2rem;
+  border-radius: 0.75rem;
+  border: 1px solid #22d3ee;
+  color: #22d3ee;
+  transition: all 0.3s ease;
+  animation: pulseBtn 2.5s infinite;
+}
+
+.btn-outline:hover {
+  background: rgba(34,211,238,0.1);
+}
+
+/* PARALLAX */
+.parallax {
+  animation: slowZoom 25s infinite alternate ease-in-out;
+}
+
+@keyframes slowZoom {
+  from { transform: scale(1); }
+  to { transform: scale(1.05); }
+}
+
+/* PARTICLES */
+.particles::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(2px 2px at 20% 30%, white 50%, transparent 50%),
+    radial-gradient(2px 2px at 80% 60%, white 50%, transparent 50%),
+    radial-gradient(1px 1px at 50% 10%, white 50%, transparent 50%),
+    radial-gradient(1px 1px at 30% 80%, white 50%, transparent 50%);
+  opacity: 0.5;
+  animation: floatStars 12s linear infinite;
+}
+
+@keyframes floatStars {
+  from { transform: translateY(0); }
+  to { transform: translateY(-200px); }
+}
+/* PAGE FADE UP (mobile smooth entry) */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeUp {
+  animation: fadeUp 1s ease-out;
+}
+
+/* BUTTON PULSE */
+@keyframes pulseBtn {
+  0%,100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+.btn-main {
+  padding: 0.75rem 2rem;
+  border-radius: 0.75rem;
+  background: #22d3ee;
+  color: black;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  animation: pulseBtn 2.5s infinite;
+}
+
+.btn-main:hover {
+  background: #67e8f9;
+}
+
+.btn-outline {
+  padding: 0.75rem 2rem;
+  border-radius: 0.75rem;
+  border: 1px solid #22d3ee;
+  color: #22d3ee;
+  transition: all 0.3s ease;
+  animation: pulseBtn 2.5s infinite;
+}
+
+.btn-outline:hover {
+  background: rgba(34,211,238,0.1);
+}
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeUp {
+  animation: fadeUp 0.8s ease-out;
+}
