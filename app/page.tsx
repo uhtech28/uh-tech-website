@@ -38,7 +38,7 @@ export default function Home() {
       <div className="block md:hidden relative min-h-screen">
 
         {/* Mobile Background */}
-        <Image src="/mob.jpg" alt="mobile bg" fill className="object-cover" />
+        <Image src="/mib.jpg" alt="mobile bg" fill className="object-cover" />
         <div className="absolute inset-0 bg-black/20" />
 
         {/* Mobile Logo (top right near menu) */}
