@@ -42,7 +42,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/10" />
 
         {/* Logo (bigger + shifted right) */}
-        <div className="absolute top-3 left-10 z-20">
+        <div className="absolute top-3 left-14 z-20">
           <Image src="/lig.jpg" alt="logo" width={110} height={110} />
         </div>
 
