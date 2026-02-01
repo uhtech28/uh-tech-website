@@ -41,13 +41,13 @@ export default function Home() {
         <Image src="/mib.jpg" alt="mobile bg" fill className="object-cover" />
         <div className="absolute inset-0 bg-black/10" />
 
-        {/* Logo LEFT (near menu) */}
-        <div className="absolute top-3 left-3 z-20">
-          <Image src="/lig.jpg" alt="logo" width={85} height={85} />
+        {/* Logo (bigger + shifted right) */}
+        <div className="absolute top-3 left-10 z-20">
+          <Image src="/lig.jpg" alt="logo" width={110} height={110} />
         </div>
 
-        {/* Buttons CENTER of screen */}
-        <div className="relative z-20 flex min-h-screen items-center justify-center">
+        {/* Buttons (shifted up + left) */}
+        <div className="relative z-20 flex min-h-screen items-center justify-center -translate-y-8 -translate-x-4">
           <div className="flex gap-4">
             <a
               href="/contact"
