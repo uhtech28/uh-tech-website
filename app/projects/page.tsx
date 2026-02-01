@@ -3,20 +3,20 @@ import Image from "next/image";
 const projects = [
   {
     title: "Lead & Enquiry Management System",
-    img: "/no.jpg",
+    img: "/lead.jpg",
     desc: "Full-stack system to capture and manage business enquiries.",
     link: "/projects/lead-management-system",
   },
   {
     title: "Business Operations Management System",
-    img: "/no.jpg",
+    img: "/bisness.jpg",
     desc: "Centralized system to manage employees, tasks, and operations.",
     link: "/projects/business-operations-management-system",
   },
   {
     title: "AI-Based Virtual Clothes Try-On System",
-    img: "/no.jpg",
-    desc: "An AI-based virtual clothing try-on platform using Computer Vision for real-time outfit preview.",
+    img: "/clothes.jpg",
+    desc: "AI-based virtual clothing try-on platform using Computer Vision for real-time outfit preview.",
     link: "/projects/ai-assistant",
   },
 ];

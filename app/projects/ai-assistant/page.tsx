@@ -5,8 +5,7 @@ export default function AIClothesTryOn() {
       {/* BACKGROUND */}
       <div className="fixed inset-0 -z-10">
         <img
-          src="/clothes.jpg"
-
+          src="/ser.jpg"
           alt="AI project background"
           className="w-full h-full object-cover"
         />
@@ -25,18 +24,36 @@ export default function AIClothesTryOn() {
           body image before purchase using Artificial Intelligence and Computer Vision.
         </p>
 
-        {/* BIG COMING SOON */}
-       <div className="border-2 border-cyan-400 rounded-2xl px-12 py-12 bg-black/50 backdrop-blur-xl shadow-[0_0_50px_#22d3ee] flex flex-col items-center justify-center text-center">
-  <h2 className="text-5xl md:text-7xl font-extrabold text-white tracking-widest mb-6 animate-pulse">
-     COMING SOON...🚀
-  </h2>
-  <p className="text-gray-400 text-lg max-w-xl">
-    This project is currently under development and will be launched very soon.
-  </p>
-</div>
+        {/* COMING SOON BOX */}
+        <div className="border border-cyan-400 rounded-2xl px-12 py-12 bg-black/60 backdrop-blur-md shadow-md flex flex-col items-center justify-center text-center">
 
+          <h2 className="text-5xl md:text-7xl font-extrabold text-white tracking-widest mb-6 animate-fadeBlink">
+            COMING SOON...
+          </h2>
 
+          <p className="text-gray-400 text-lg max-w-xl">
+            This project is currently under development and will be launched very soon.
+          </p>
+
+        </div>
       </div>
+
+      {/* PROFESSIONAL BLINK ANIMATION */}
+      <style jsx>{`
+        .animate-fadeBlink {
+          animation: fadeBlink 1.6s ease-in-out infinite;
+        }
+
+        @keyframes fadeBlink {
+          0%, 100% {
+            opacity: 1;
+          }
+          50% {
+            opacity: 0.3;
+          }
+        }
+      `}</style>
+
     </div>
   );
 }
