@@ -6,6 +6,7 @@ export default function AIClothesTryOn() {
       <div className="fixed inset-0 -z-10">
         <img
           src="/clothes.jpg"
+
           alt="AI project background"
           className="w-full h-full object-cover"
         />
