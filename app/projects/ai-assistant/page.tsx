@@ -5,7 +5,7 @@ export default function AIClothesTryOn() {
       {/* BACKGROUND */}
       <div className="fixed inset-0 -z-10">
         <img
-          src="/ser.jpg"
+          src="/clothes.jpg"
           alt="AI project background"
           className="w-full h-full object-cover"
         />

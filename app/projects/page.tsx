@@ -14,9 +14,9 @@ const projects = [
     link: "/projects/business-operations-management-system",
   },
   {
-    title: "AI Assistant",
+    title: "AI-Based Virtual Clothes Try-On System",
     img: "/no.jpg",
-    desc: "Smart chatbot system powered by Artificial Intelligence.",
+    desc: "An AI-based virtual clothing try-on platform using Computer Vision for real-time outfit preview.",
     link: "/projects/ai-assistant",
   },
 ];
