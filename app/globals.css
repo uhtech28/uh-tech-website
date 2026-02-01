@@ -172,3 +172,15 @@ body {
 .animate-fadeUp {
   animation: fadeUp 0.8s ease-out;
 }
+@keyframes fadeBlink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+}
+
+.animate-fadeBlink {
+  animation: fadeBlink 1.6s ease-in-out infinite;
+}

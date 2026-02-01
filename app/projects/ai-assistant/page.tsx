@@ -1,3 +1,5 @@
+"use client";
+
 export default function AIClothesTryOn() {
   return (
     <div className="relative min-h-screen flex items-center justify-center text-white">
@@ -37,23 +39,6 @@ export default function AIClothesTryOn() {
 
         </div>
       </div>
-
-      {/* PROFESSIONAL BLINK ANIMATION */}
-      <style jsx>{`
-        .animate-fadeBlink {
-          animation: fadeBlink 1.6s ease-in-out infinite;
-        }
-
-        @keyframes fadeBlink {
-          0%, 100% {
-            opacity: 1;
-          }
-          50% {
-            opacity: 0.3;
-          }
-        }
-      `}</style>
-
     </div>
   );
 }
