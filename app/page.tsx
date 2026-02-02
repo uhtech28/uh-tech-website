@@ -62,8 +62,8 @@ export default function Home() {
   <div className="absolute inset-0 bg-black/30" />
 
   {/* Mobile Logo */}
-  <div className="absolute top-2 left-16 z-20">
-    <Image src="/lig.jpg" alt="logo" width={130} height={130} />
+  <div className="absolute top-1 left-1 z-20">
+    <Image src="/lig.jpg" alt="logo" width={60} height={60} />
   </div>
 
   {/* Mobile Buttons */}
