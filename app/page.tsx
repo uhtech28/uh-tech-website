@@ -55,13 +55,14 @@ export default function Home() {
     alt="mobile bg"
     fill
     priority
-    className="object-contain"
+    className="object-contain scale-110"
+
   />
 
   <div className="absolute inset-0 bg-black/20" />
 
   {/* Mobile Logo */}
-  <div className="absolute top-1 left-1 z-20">
+  <div className="absolute top-1 right-1 z-20">
     <Image src="/lig.jpg" alt="logo" width={60} height={60} />
   </div>
 
