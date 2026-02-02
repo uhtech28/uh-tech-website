@@ -47,19 +47,18 @@ export default function Home() {
 </div>
 
 
-      {/* ================= MOBILE HERO ================= */}
-<div className="flex md:hidden relative min-h-screen items-center justify-center">
+    {/* ================= MOBILE HERO ================= */}
+<div className="flex md:hidden relative min-h-screen items-center justify-center bg-black">
 
   <Image
     src="/moob.jpg"
     alt="mobile bg"
     fill
     priority
-    className="object-cover object-top"
+    className="object-contain"
   />
 
-  {/* lighter overlay so image is visible */}
-  <div className="absolute inset-0 bg-black/30" />
+  <div className="absolute inset-0 bg-black/20" />
 
   {/* Mobile Logo */}
   <div className="absolute top-1 left-1 z-20">
@@ -88,6 +87,7 @@ export default function Home() {
     </div>
   </div>
 </div>
+
 
     </div>
   );
