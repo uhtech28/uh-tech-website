@@ -51,7 +51,7 @@ export default function Home() {
       <div className="flex md:hidden relative min-h-screen items-center justify-center">
 
         <Image
-          src="/clothes.jpg"
+          src="/moob.jpg"
           alt="mobile bg"
           fill
           className="object-contain"
