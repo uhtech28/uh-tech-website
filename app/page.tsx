@@ -56,7 +56,6 @@ export default function Home() {
     fill
     priority
     className="object-contain scale-110"
-
   />
 
   <div className="absolute inset-0 bg-black/20" />
@@ -67,28 +66,28 @@ export default function Home() {
   </div>
 
   {/* Mobile Buttons */}
-  <div className="relative z-20 flex items-center justify-center mt-40">
-    <div className="flex gap-4">
+<div className="relative z-20 flex items-center justify-center -translate-x-4 -translate-y-20">
+  <div className="flex gap-3">
 
-      <a href="/contact" className="relative">
-        <div className="p-[2px] rounded-xl bg-gradient-to-r from-green-400 via-yellow-400 to-orange-400 shadow-[0_0_25px_rgba(255,180,0,0.9)]">
-          <div className="px-7 py-3 rounded-xl bg-black/60 backdrop-blur text-white font-semibold">
-            Get a Quote →
-          </div>
+    <a href="/contact" className="relative">
+      <div className="p-[2px] rounded-lg bg-gradient-to-r from-green-400 via-yellow-400 to-orange-400 shadow-[0_0_20px_rgba(255,180,0,0.9)]">
+        <div className="px-4 py-2 rounded-lg bg-black/70 backdrop-blur text-white text-sm font-semibold">
+          Get a Quote →
         </div>
-      </a>
+      </div>
+    </a>
 
-      <a
-        href="/projects"
-        className="px-5 py-2 text-sm border border-cyan-400 text-cyan-400 rounded-lg"
-      >
-        View Work
-      </a>
+    <a
+      href="/projects"
+      className="px-4 py-1.5 text-xs border border-cyan-400 text-cyan-400 rounded-md"
+    >
+      View Work
+    </a>
 
-    </div>
   </div>
 </div>
 
+</div>
 
     </div>
   );
