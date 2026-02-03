@@ -57,10 +57,10 @@ export default function Home() {
     alt="mobile bg"
     fill
     priority
-    className="object-contain scale-130"
+    className="object-contain scale-140"
   />
 
-  <div className="absolute inset-0 bg-black/10" />
+  <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/25 to-black/10" />
 
   {/* Mobile Logo */}
   <div className="absolute top-1 right-1 z-20">
@@ -68,7 +68,7 @@ export default function Home() {
   </div>
 
   {/* Mobile Buttons */}
-<div className="relative z-20 flex items-center justify-center -translate-x-1 -translate-y-10 scale-[0.85]">
+<div className="relative z-20 flex items-center justify-center -translate-x-1 -translate-y-8 scale-[0.85]">
   <div className="flex gap-3">
 
     <a href="/contact" className="relative">
