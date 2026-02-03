@@ -58,7 +58,7 @@ export default function Home() {
   alt="mobile bg"
   fill
   priority
-  className="object-cover scale-[0.92]"
+  className="object-contain scale-[0.95] bg-black"
 />
 
 
