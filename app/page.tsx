@@ -70,7 +70,7 @@ export default function Home() {
 
  {/* Mobile Buttons */}
 <div className="absolute inset-0 z-20 flex items-center justify-center 
-                -translate-x-[2.4rem] translate-y-[0.2rem] scale-[0.85]">
+                -translate-x-[2.4rem] translate-y-[-3.8rem] scale-[0.85]">
   <div className="flex gap-3">
 
     <a href="/contact" className="relative">
@@ -80,7 +80,6 @@ export default function Home() {
         </div>
       </div>
     </a>
-
       <a
         href="/projects"
         className="px-4 py-1.5 text-xs border border-cyan-400 text-cyan-400 rounded-md"
