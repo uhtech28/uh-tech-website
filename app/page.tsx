@@ -65,12 +65,12 @@ export default function Home() {
 </div>
   {/* Mobile Logo (overlay only) */}
   <div className="absolute top-1 right-1 z-20">
-    <Image src="/lig.jpg" alt="logo" width={60} height={60} />
+    <Image src="/lig.jpg" alt="logo" width={80} height={80} />
   </div>
 
   {/* Mobile Buttons */}
   <div className="absolute inset-0 z-20 flex items-center justify-center 
-                  -translate-x-[2rem] -translate-y-[10.5rem] scale-[0.85]">
+                  -translate-x-[1.5rem] -translate-y-[11.5rem] scale-[0.85]">
     <div className="flex gap-3">
 
       <a href="/contact" className="relative">
