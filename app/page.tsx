@@ -57,14 +57,14 @@ export default function Home() {
     alt="mobile bg"
     fill
     priority
-    className="object-contain scale-120"
+    className="object-contain scale-150"
   />
 
   <div className="absolute inset-0 bg-black/10" />
 
   {/* Mobile Logo */}
   <div className="absolute top-1 right-1 z-20">
-    <Image src="/lig.jpg" alt="logo" width={40} height={40} />
+    <Image src="/lig.jpg" alt="logo" width={80} height={80} />
   </div>
 
   {/* Mobile Buttons */}
