@@ -70,7 +70,7 @@ export default function Home() {
 
  {/* Mobile Buttons */}
 <div className="absolute inset-0 z-20 flex items-center justify-center 
-                -translate-x-[2.4rem] translate-y-[1.8rem] scale-[0.85]">
+                -translate-x-[2.4rem] translate-y-[0.2rem] scale-[0.85]">
   <div className="flex gap-3">
 
     <a href="/contact" className="relative">
