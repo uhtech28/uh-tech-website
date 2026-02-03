@@ -68,18 +68,18 @@ export default function Home() {
     <Image src="/lig.jpg" alt="logo" width={80} height={80} />
   </div>
 
-  {/* Mobile Buttons */}
-  <div className="absolute inset-0 z-20 flex items-center justify-center 
-                  -translate-x-[1rem] -translate-y-[12.5rem] scale-[0.85]">
-    <div className="flex gap-3">
+ {/* Mobile Buttons */}
+<div className="absolute inset-0 z-20 flex items-center justify-center 
+                -translate-x-[2.4rem] translate-y-[4.8rem] scale-[0.85]">
+  <div className="flex gap-3">
 
-      <a href="/contact" className="relative">
-        <div className="p-[2px] rounded-lg bg-gradient-to-r from-green-400 via-yellow-400 to-orange-400 shadow-[0_0_20px_rgba(255,180,0,0.9)]">
-          <div className="px-4 py-2 rounded-lg bg-black/70 backdrop-blur text-white text-sm font-semibold">
-            Get a Quote →
-          </div>
+    <a href="/contact" className="relative">
+      <div className="p-[2px] rounded-lg bg-gradient-to-r from-green-400 via-yellow-400 to-orange-400 shadow-[0_0_20px_rgba(255,180,0,0.9)]">
+        <div className="px-4 py-2 rounded-lg bg-black/70 backdrop-blur text-white text-sm font-semibold">
+          Get a Quote →
         </div>
-      </a>
+      </div>
+    </a>
 
       <a
         href="/projects"
