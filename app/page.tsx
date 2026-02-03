@@ -64,7 +64,7 @@ export default function Home() {
 
   {/* Mobile Logo */}
   <div className="absolute top-1 right-1 z-20">
-    <Image src="/lig.jpg" alt="logo" width={40} height={40} />
+    <Image src="/lig.jpg" alt="logo" width={80} height={100} />
   </div>
 
   {/* Mobile Buttons */}
