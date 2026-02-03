@@ -58,7 +58,7 @@ export default function Home() {
   alt="mobile bg"
   fill
   priority
-  className="object-cover object-center scale-[0.90]"
+  className="object-cover object-center scale-[0.80]"
 />
 
   {/* Mobile Logo (overlay only) */}
