@@ -59,7 +59,7 @@ export default function Home() {
     alt="mobile bg"
     fill
     priority
-    className="object-contain object-center scale-[1.45]"
+    className="object-contain object-center scale-[1.4]"
   />
 
 </div>
