@@ -54,12 +54,13 @@ export default function Home() {
 
   {/* Background Image */}
   <Image
-    src="/moob.jpg"
-    alt="mobile bg"
-    fill
-    priority
-    className="object-cover"
-  />
+  src="/moob.jpg"
+  alt="mobile bg"
+  fill
+  priority
+  className="object-cover scale-[0.92]"
+/>
+
 
   {/* Mobile Logo (overlay only) */}
   <div className="absolute top-1 right-1 z-20">
