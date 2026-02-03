@@ -10,11 +10,11 @@ export default function Home() {
 <div className="hidden md:flex relative min-h-screen items-center justify-center">
 
   <Image
-    src="/bg.jpg"
+    src="/bock.jpg"
     alt="bg"
     fill
     priority
-    className="object-cover object-top scale-105"
+    className="object-cover object-top scale-96"
   />
 
   <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/25 to-black/10" />
@@ -25,7 +25,9 @@ export default function Home() {
   </div>
 
   {/* Desktop Buttons */}
-  <div className="absolute left-24 top-1/2 -translate-y-1/2 z-10">
+ <div className="absolute left-24 top-1/2 -translate-y-1/2 -translate-x-[2.5rem] -translate-y-[8.5rem] scale-[0.90] z-10">
+
+
     <div className="flex gap-6">
       <a href="/contact" className="relative">
         <div className="p-[2px] rounded-xl bg-gradient-to-r from-green-400 via-yellow-400 to-orange-400 shadow-[0_0_30px_rgba(255,180,0,0.9)]">
@@ -55,18 +57,18 @@ export default function Home() {
     alt="mobile bg"
     fill
     priority
-    className="object-contain scale-110"
+    className="object-contain scale-120"
   />
 
-  <div className="absolute inset-0 bg-black/20" />
+  <div className="absolute inset-0 bg-black/10" />
 
   {/* Mobile Logo */}
   <div className="absolute top-1 right-1 z-20">
-    <Image src="/lig.jpg" alt="logo" width={60} height={60} />
+    <Image src="/lig.jpg" alt="logo" width={40} height={40} />
   </div>
 
   {/* Mobile Buttons */}
-<div className="relative z-20 flex items-center justify-center -translate-x-4 -translate-y-20">
+<div className="relative z-20 flex items-center justify-center -translate-x-2 -translate-y-15 scale-[0.85]">
   <div className="flex gap-3">
 
     <a href="/contact" className="relative">
