@@ -29,7 +29,7 @@ export default function RootLayout({
         {!open && (
           <button
             onClick={() => setOpen(true)}
-            className="fixed top-4 left-4 z-50 w-11 h-11 bg-white rounded-lg flex flex-col items-center justify-center gap-1"
+            className="fixed top-4 left-4 z-50 w-9 h-10 bg-white rounded-lg flex flex-col items-center justify-center gap-1"
           >
             <span className="w-5 h-0.5 bg-black"></span>
             <span className="w-5 h-0.5 bg-black"></span>
