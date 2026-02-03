@@ -52,15 +52,17 @@ export default function Home() {
    {/* ================= MOBILE HERO ================= */}
 <div className="flex md:hidden relative min-h-screen w-full overflow-hidden">
 
-  {/* Background Image */}
- <Image
-  src="/mol.jpg"
-  alt="mobile bg"
-  fill
-  priority
-  className="object-cover object-center scale-[0.90]"
-/>
+ <div className="relative md:hidden w-full h-screen bg-black">
 
+  <Image
+    src="/mol.jpg"
+    alt="mobile bg"
+    fill
+    priority
+    className="object-contain object-center"
+  />
+
+</div>
   {/* Mobile Logo (overlay only) */}
   <div className="absolute top-1 right-1 z-20">
     <Image src="/lig.jpg" alt="logo" width={40} height={40} />
