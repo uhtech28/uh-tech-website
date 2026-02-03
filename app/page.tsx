@@ -53,14 +53,13 @@ export default function Home() {
 <div className="flex md:hidden relative min-h-screen w-full overflow-hidden">
 
   {/* Background Image */}
-  <Image
+ <Image
   src="/moob.jpg"
   alt="mobile bg"
   fill
   priority
-  className="object-contain scale-[0.95] bg-black"
+  className="object-cover object-center scale-[0.97]"
 />
-
 
   {/* Mobile Logo (overlay only) */}
   <div className="absolute top-1 right-1 z-20">
