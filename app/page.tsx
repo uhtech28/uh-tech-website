@@ -49,47 +49,48 @@ export default function Home() {
 </div>
 
 
-    {/* ================= MOBILE HERO ================= */}
-<div className="flex md:hidden relative min-h-screen items-center justify-center bg-black">
+   {/* ================= MOBILE HERO ================= */}
+<div className="flex md:hidden relative min-h-screen w-full overflow-hidden">
 
+  {/* Background Image */}
   <Image
     src="/moob.jpg"
     alt="mobile bg"
     fill
     priority
-    className="object-contain scale-140"
+    className="object-cover"
   />
 
-  <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/25 to-black/10" />
-
-  {/* Mobile Logo */}
+  {/* Mobile Logo (overlay only) */}
   <div className="absolute top-1 right-1 z-20">
-    <Image src="/lig.jpg" alt="logo" width={80} height={100} />
+    <Image src="/lig.jpg" alt="logo" width={40} height={40} />
   </div>
 
   {/* Mobile Buttons */}
-<div className="relative z-20 flex items-center justify-center -translate-x-1 -translate-y-8 scale-[0.85]">
-  <div className="flex gap-3">
+  <div className="absolute inset-0 z-20 flex items-center justify-center 
+                  -translate-x-[2.5rem] -translate-y-[9.5rem] scale-[0.85]">
+    <div className="flex gap-3">
 
-    <a href="/contact" className="relative">
-      <div className="p-[2px] rounded-lg bg-gradient-to-r from-green-400 via-yellow-400 to-orange-400 shadow-[0_0_20px_rgba(255,180,0,0.9)]">
-        <div className="px-4 py-2 rounded-lg bg-black/70 backdrop-blur text-white text-sm font-semibold">
-          Get a Quote →
+      <a href="/contact" className="relative">
+        <div className="p-[2px] rounded-lg bg-gradient-to-r from-green-400 via-yellow-400 to-orange-400 shadow-[0_0_20px_rgba(255,180,0,0.9)]">
+          <div className="px-4 py-2 rounded-lg bg-black/70 backdrop-blur text-white text-sm font-semibold">
+            Get a Quote →
+          </div>
         </div>
-      </div>
-    </a>
+      </a>
 
-    <a
-      href="/projects"
-      className="px-4 py-1.5 text-xs border border-cyan-400 text-cyan-400 rounded-md"
-    >
-      View Work
-    </a>
+      <a
+        href="/projects"
+        className="px-4 py-1.5 text-xs border border-cyan-400 text-cyan-400 rounded-md"
+      >
+        View Work
+      </a>
 
+    </div>
   </div>
-</div>
 
 </div>
+
 
     </div>
   );
