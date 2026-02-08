@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const projects = [
   {
-    title: "Lead & Enquiry Management System",
-    img: "/lead.jpg",
+    title: "Elite Coaching – Online Learning Platform",
+    img: "/edu.jpg",
     desc: "Full-stack system to capture and manage business enquiries.",
     link: "/projects/lead-management-system",
   },
